@@ -1,0 +1,6 @@
+{
+    "tasks": {
+        "start": "PORT=8000 deno run -A -r unstable --no-lock https://raw.githubusercontent.com/AxionCompany/functions/develop/main.ts",
+        "dev": "WATCH=true deno run -A --reload=http://localhost:8001,https://raw.githubusercontent.com/AxionCompany/functions/ --unstable --no-lock https://raw.githubusercontent.com/AxionCompany/functions/develop/main.ts"
+    }
+}
