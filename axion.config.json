@@ -1,4 +1,4 @@
 {
-    "functionsDir":"src",
+    "functionsDir":".",
     "dirEntrypoint":"main"
 }
